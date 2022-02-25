@@ -105,12 +105,6 @@ class SeleniumWrapper:
 		self.wait.until(EC.invisibility_of_element_located((By.ID, element)))
 
 # WINDOW FUNCTIONS
-	# def wait_for_new_window(self):
-	# 	current_windows = self.driver.window_handles
-	# 	self.wait.until(
-	# 		lambda x: len(self.driver.window_handles) != len(current_windows)
-	# 	)
-
 	def manage_pop_up(self):
 		"""returns main and browse page"""
 		# self.wait_for_new_window()
